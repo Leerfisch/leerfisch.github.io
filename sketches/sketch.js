@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   noStroke();
   fill(mouseX, 255 - mouseY, mouseY - mouseX, 20);
-  circle(mouseX, mouseY, 60);
+  circle(mouseX, mouseY, sin(millis() / 2000) * 50 + 30);
 }
 
 function mousePressed() {
