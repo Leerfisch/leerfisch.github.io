@@ -1,0 +1,22 @@
+body {
+    background-color: #fcfbf8;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(85, 1, 150);
+}
+
+canvas {
+    display: block;
+}
+
+.rot {
+    color: darkred;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.blau {
+    color: darkcyan;
+}
